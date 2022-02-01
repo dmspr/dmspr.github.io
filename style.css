@@ -93,10 +93,6 @@ article .skill {
     transition: 0.2s;
 }
 
-.medsos {
-    display: flex;
-    justify-content: center;
-}
 .medsos-link {
     padding-left: 20px;
 }
