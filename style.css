@@ -95,9 +95,7 @@ article .skill {
 
 .medsos {
     display: flex;
-    justify-content: center;;
-    position: relative;
-    bottom: 30px;
+    justify-content: center;
 }
 .medsos-link {
     padding-left: 20px;
