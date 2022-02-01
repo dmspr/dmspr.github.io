@@ -1,0 +1,110 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.dark-mode {
+    background-color: #041C32;
+    color: white;
+}
+
+.row {
+    padding: 12% 0;
+    text-align: center;
+    height: 680px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 80px;
+    color: #9D2933;
+    font-family: 'Comforter', cursive;
+   
+}
+
+.type {
+    color: #9D2933;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.holla {
+    font-size: 25px;
+    padding-bottom: -20px;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 25px;
+}
+.icon {
+    position: relative;
+    top:4px;
+    left: 8px;
+    transition: all 0.3s ease;
+}
+.icon1 {
+    border: solid 2px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: fixed;
+    right: 7%;
+    top: 5%;
+}
+.icon1:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+@media screen and (max-width: 994px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+.m-15{
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+/* .contanct:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+} */
+
+h6 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.skill {
+    display: flex;
+    justify-content: center;
+}
+article .skill {
+    margin: 40px;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.medsos {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 180px;
+    
+}
+.medsos-link {
+    padding-left: 20px;
+}
+
+.medsos-link:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
