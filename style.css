@@ -18,7 +18,7 @@
     font-size: 80px;
     color: #9D2933;
     font-family: 'Comforter', cursive;
-   
+    height: 20%;
 }
 
 .type {
@@ -30,8 +30,8 @@
 
 .holla {
     font-size: 25px;
-    padding-bottom: -20px;
     font-weight: bold;
+    height: 10px;
 }
 
 h3 {
@@ -48,7 +48,7 @@ h3 {
     border: solid 2px;
     height: 35px;
     width: 35px;
-    border-radius: 50%;
+    border-radius: 100%;
     cursor: pointer;
     transition: all 0.3s ease;
     position: fixed;
@@ -94,10 +94,21 @@ article .skill {
 }
 
 .medsos-link {
-    padding-left: 20px;
+    padding: 20px;
 }
 
 .medsos-link:hover {
     transform: scale(1.1);
     transition: 0.2s;
 }
+#medsos:hover {
+    color: #9D2933;
+    text-decoration: none;
+    transform: scale(1.6);
+    transition: 0.2s;
+}
+
+#medsos {
+    color: 	#696969
+}
+
